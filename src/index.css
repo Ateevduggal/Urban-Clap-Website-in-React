@@ -1,13 +1,73 @@
-body {
+body{
+  font-family: axiforma-regular,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  width: 100%;
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*                HERO SECTION              */
+
+.hero-section{
+  background-image: url("https://res.cloudinary.com/urbanclap/image/upload/images/growth/home-screen/1615375782838-f890f8.jpeg");
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.384);
 }
+.navbar-brand{
+  margin-left: 2%;
+}
+.navbar-nav{
+  margin-right: 3% !important;
+  width: 50%;
+}
+.nav-link{
+  color: white;
+  padding: 0;
+  font-weight: 600;
+  margin: 0 1.5% !important;
+  font-style: 18px;
+}
+.nav-link:hover{
+  color: white;
+}
+.line{
+  border-bottom: 2px solid white;
+}
+.h1{
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 48px;
+}
+.input-group{
+  margin-left: 10%;
+}
+#input-fields{
+  margin-left: 19%;
+  margin-top: 1%;
+}
+.link-field{
+  margin-bottom: 12%;
+}
+.dropdown-menu{
+  width: 200%;
+  border-radius: 14px;
+}
+#dropdown-list{
+  font-size: 20px;
+  padding: 2% 3%;
+  border: 1px solid lightgray;
+}
+.see{
+ margin-left: 10%;
+ font-size: 23px;
+}
+#input-dropdown{
+  margin-left: 5%;
+  width: 80%;
+}
+
+
+/*                  CARD SECTION                */
+
